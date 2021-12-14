@@ -48,6 +48,7 @@ Text classification is a good way to classify text into categories, in addition 
 * Arwa Alqahtani - Anhalqahtani21@sm.imamu.edu.sa - https://github.com/ArwaAlqahtani
 
 Project Link:
+https://github.com/riiix3/OurProject
 
 ## Acknowledgments 
 One of the things that helped us build an easy environment for development is :
