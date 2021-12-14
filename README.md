@@ -27,7 +27,7 @@ Text classification is a good way to classify text into categories, in addition 
 > node index.js
 
 
-## License
+## Licenses
 * train.txt
 * index.js
 * index.html
@@ -41,7 +41,7 @@ Text classification is a good way to classify text into categories, in addition 
 ## Project stateus:
 * In Progress
 
-## Contact 
+## Contacts
 * Aliah Alhameed - ahameed@sm.imam.edu.sa - https://github.com/aalliiaah
 * Qamra Almutairi - qaaalmutairi@sm.imamu.edu.sa - https://github.com/AGamra
 * Rahaf Alotibi - 
@@ -50,7 +50,7 @@ Text classification is a good way to classify text into categories, in addition 
 Project Link:
 https://github.com/riiix3/OurProject
 
-## Acknowledgments 
+## Acknowledgment
 One of the things that helped us build an easy environment for development is :
 https://github.com/snapppy/fasttext-demo
 
