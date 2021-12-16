@@ -11,7 +11,7 @@
 <body>
 <img src="https://thumbs.dreamstime.com/b/food-spoon-fork-vector-symbol-graphic-logo-design-template-food-spoon-fork-symbol-logo-design-121549456.jpg" height="140px">
 <p><font size = "+2" color = "darkgray">
-FOOD CLASSIFICATION
+FOOD TEXT CLASSIFICATION
 </font>
 </p>
 <form action="/fasttext">
@@ -24,18 +24,34 @@ FOOD CLASSIFICATION
 <p style="color:blue">ENTER YOUR TEXT HERE TO BE CLASSIFIED </p>
 <textarea rows="30" cols="30" name = "statement"></textarea>
 
+<button type="submit" value ="Submit">Submit</button>
+<button type="reset" value ="Reset">Reset</button>
 
-<input type="submit" value="Submit">
-<input type="reset" value="Reset">
 </fieldset>
 </body>
 
-
+<script>
+fetch('http://localhost:8000/fasttext?statement=$result')
+.then((respons) => {
+return response.json();
+})
+.then((data) => {
+console.log(data);
+});
+</script>
 </form>
 
-<label>LABELS</label><br>
-<textarea rows="30" cols="30"></textarea>
+</body>
+<p style="color:blue">LABELS AND TEXT</p>
+<textarea rows="30" "GetFastTextResults(name)" cols="30"></textarea>
+
+
+
+</body>
+
 
 
 
 </html>
+
+
